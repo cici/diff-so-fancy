@@ -10,7 +10,7 @@ your diffs' appearances.
 
 *`git diff` vs `git diff --color | diff-so-fancy`*
 
-![diff-highlight vs diff-so-fancy](https://cloud.githubusercontent.com/assets/39191/10000682/8e849130-6052-11e5-9bd9-bd4505cd24d6.png)
+![diff-highlight vs diff-so-fancy](https://cloud.githubusercontent.com/assets/39191/13622719/7cc7c54c-e555-11e5-86c4-7045d91af041.png)
 
 ## Usage
 
@@ -36,7 +36,7 @@ For convenience, the recommended installation is via NPM. If you'd prefer, you m
 ```shell
 npm install -g diff-so-fancy
 ```
-This will install and link the `diff-so-fancy` and `diff-highlight` scripts.
+This will install and link the `diff-so-fancy` and `diff-highlight` scripts. You can also upgrade to the latest version with this command.
 
 On Mac, you can install via Homebrew:
 ```shell
@@ -89,6 +89,14 @@ You can pre-seed your `less` pager with a search pattern, so you can move betwee
 ## Contributing
 
 Pull requests quite welcome, along with any feedback or ideas.
+
+### Reporting bugs
+
+Providing the original diff text inline in the issue is quite helpful.
+
+```sh
+git --no-pager diff > output.diff
+```
 
 ### Hacking
 
